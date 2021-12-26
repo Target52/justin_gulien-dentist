@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 4rem;
+  background-color: lightslategray;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 4rem;
+}
+
+nav {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: greenyellow;
+}
+
+a,
+a:focus,
+a:visited {
+  color: darksalmon;
+  outline: none;
+}
+
+input, select, button {
+  padding: 5px;
+}
+
+.sick {
+  margin-top: 40px;
+}
+
+.trashcan {
+  height: 20px;
+  margin-right:0px;
+  background-color: #FFFFE0;
+  align-self: right;
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+ 
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
